@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:200,400,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.root-container {
+  height: 100vh;
+}
+
+.left-container {
+  float: left;
+  background-image: url("https://fervent-mayer-36e64f.netlify.app/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  width: 55%;
+  height: 100%;
+}
+
+.right-container {
+  float: right;
+  background-color: magenta;
+  width: 45%;
+  height: 100%;
+}
+
+.left-content {
+  width: 60%;
+  margin-top: 60px;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.left-content .coming-soon {
+  font-size: 3em;
+  font-weight: smaller;
+  letter-spacing: 0.2em;
+  margin-top: 90px;
+}
+
+.left-content .coming-soon span {
+  display: block;
+  font-weight: 100;
+  color: #ce9797;
+  margin-bottom: 15px;
+}
+
+.left-content .description {
+  margin-top: 20px;
+  color: #ce9797;
+}
+
+.left-content .input-container {
+  margin-top: 30px;
+  position: relative;
+}
+
+.left-content .input-container input {
+  padding: 5px;
+  outline: none;
+  padding-left: 30px;
+  font-size: 1.3em;
+  width: 100%;
+  height: 55px;
+  color: #ce9797;
+  border: 2px solid #ce9797;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.left-content .input-container input::placeholder {
+  color: gray;
+}
+
+.left-content .input-container button {
+  padding: 5px;
+  outline: none;
+  background-color: #ce9797;
+  color: #fff;
+  border: 1px solid #ce9797;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 55px;
+  z-index: 10;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.left-content .input-container button:hover,
+.left-content .input-container button:active {
+  background-color: hsl(0, 80%, 86%);
+  border: 2px solid hsl(0, 80%, 86%);
+  cursor: pointer;
+}
+
+.right-container {
+  background-image: url("./hero-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 230px;
+}
